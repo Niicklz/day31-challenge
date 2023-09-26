@@ -159,10 +159,10 @@ export const App = () => {
           <label htmlFor="options">Password Length</label>
           <AiFillCaretDown className="flechita" />
           <select id="options" onChange={selectChange}>
-            <option value="4">4</option>
             <option value="8">8</option>
             <option value="16">16</option>
             <option value="24">24</option>
+            <option value="28">28</option>
           </select>
         </div>
         <PasswordType
