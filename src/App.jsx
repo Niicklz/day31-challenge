@@ -10,7 +10,7 @@ export const App = () => {
   const [number, setNumber] = useState(false);
   const [characters, setCharacters] = useState("");
   const [randomPassword, setRandomPassword] = useState("");
-  const [length, setLength] = useState(4);
+  const [length, setLength] = useState(8);
 
   const generateRandomPassword = (length = 10) => {
     let password = "";
