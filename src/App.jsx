@@ -132,6 +132,7 @@ export const App = () => {
   };
 
   const copyToClipboard = async () => {
+    if(randomPassword.length === 0) return
     try {
       await navigator.clipboard.writeText(randomPassword);
       alert("Password Copied!");
